@@ -34,7 +34,7 @@ const GET_ROOM = gql`
 const getRoomCategories = (type: string) => {
     switch (type) {
         case 'START_STOP_CONTINUE':
-            return ['STOP', 'CONTINUE', 'START'];
+            return ['START', 'STOP', 'CONTINUE'];
         case 'HAPPY_CONFUSED_SAD':
             return ['SAD', 'CONFUSED', 'HAPPY'];
         case 'MAD_SAD_GLAD':
